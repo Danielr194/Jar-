@@ -14,10 +14,15 @@ public class Conexao {
             if (!conexaoEstabelecida) {
                 BasicDataSource dataSource = new BasicDataSource();
 //                 Configurações para o MySQL
+//                dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+//                dataSource.setUrl("jdbc:mysql://localhost:3306/yotte");
+//                dataSource.setUsername("root");
+//                dataSource.setPassword("58214213");
+
                 dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
                 dataSource.setUrl("jdbc:mysql://localhost:3306/yotte");
-                dataSource.setUsername("root");
-                dataSource.setPassword("58214213");
+                dataSource.setUsername("yotte");
+                dataSource.setPassword("yotte2023");
 
 
 //                dataSource.setUrl("jdbc:sqlserver://54.205.98.102; database=yotte; user=sa; passaword=Projetoyotte2023; trustServerCertificate=true;");
